@@ -35,8 +35,8 @@ while True:
             else:
                 print("You'll win the next one!")
     else:
-        num1 = randint(1, 5)
-        num2 = randint(1, 5)
+        num1 = randint(1, 3)
+        num2 = randint(1, 4)
         num3 = randint(1, 5)
         if num1 == num2 and num2 == num3:
             print("You would've won that one!")
